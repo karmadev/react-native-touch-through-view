@@ -36,6 +36,7 @@ allprojects {
 android {
   compileSdkVersion project.hasProperty('compileSdkVersion') ? project.compileSdkVersion : DEFAULT_COMPILE_SDK_VERSION
   buildToolsVersion project.hasProperty('buildToolsVersion') ? project.buildToolsVersion : DEFAULT_BUILD_TOOLS_VERSION
+  namespace "com.rome2rio.android.reactnativetouchthroughview"
 
   defaultConfig {
     minSdkVersion 16
