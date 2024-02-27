@@ -39,7 +39,7 @@ android {
   namespace "com.rome2rio.android.reactnativetouchthroughview"
 
   defaultConfig {
-    minSdkVersion 16
+    minSdkVersion 21
     targetSdkVersion project.hasProperty('targetSdkVersion') ? project.targetSdkVersion : DEFAULT_TARGET_SDK_VERSION
   }
 
